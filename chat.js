@@ -1,15 +1,4 @@
-//const Fuse = require('fuse.js');\
-//const inputElement = document.getElementById("text_a");
-//const answerElement = document.getElementById("userInput");
 
-// >-1 means any character after accepted, "i " must be only I in a sentence, "small caps", big caps undetectable
-//function question() {
-	//const inputText = document.getElementById("text_a").value.trim();
-	//const inputText = inputElement.value;
-  	//if(inputText === "") { 
-	//response.innerHTML="Your input is blank";return;}
-//else if(input.toLowerCase().indexOf("thank you")>-1){
-			//response.innerHTML="You are welcome.不用客气。";return;}
 
 const keywordResponses = {
 	"hello":"Hello! How can I assist you today?",
@@ -261,19 +250,17 @@ else if(input.toLowerCase().indexOf("rams")>-1&&input.toLowerCase().indexOf("pla
 
 //"british' keyword prompt*
 else if(input.toLowerCase().indexOf("life")>-1){
-	response.innerHTML=" try keyword 'lifeguard' with: award, certification, qualification, age";
+	response.innerHTML=" try keyword 'lifeguard' with: award, certification, qualification, age"; return;
 }
 
-else if(input.toLowerCase().indexOf("da")>-1||input.toLowerCase().indexOf("bm")>-1||input.toLowerCase().indexOf("am")>-1){
-	response.innerHTML=` try keyword '${inputText}' with: award, certification, qualification, age`;
-}
 
 //"landings" keyword prompt* 
 else if(input.toLowerCase().indexOf("landing")>-1){
-	response.innerHTML=" try keyword 'landing' with: types, walk out, drag, shoulder carry, pick a back carry, stirrup, assisted lift, straight arm lift, use (lift and lower) with this methods ";
+	response.innerHTML=` try keyword 'landing' with: types, walk out, drag, shoulder carry, pick a back carry, stirrup, assisted lift, straight arm lift, use (lift and lower) with this methods `;
+return;
 }
-//	 else {answerElement.innerHTML = `I do not understand your input '${inputText}', perhaps you could click our "topics" button above or check your spelling.<br>Or email us what was your question for us to update an appropriate response.<br><a href="mailto:tonboswimmers@gmail.com?&subject=Lifeguard%20ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20Tonboswimmers", target="_blank">email</a>`;return;}
+}
+//else {response.innerHTML = `I do not have information on your input '${inputText}', perhaps you could click our "topics" button above or check your spelling.<br>Or email us what was your question for us to update an appropriate response.<br><a href="mailto:tonboswimmers@gmail.com?&subject=Lifeguard%20ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20Tonboswimmers", target="_blank">email</a>`;return;}
 
-response.textContent = "I'm sorry, I don't have information on that topic.";
-}
+response.textContent = `I'm sorry, I don't have information on that topic '${input}'. Or email us what was your question for us to update an appropriate response, tonboswimmers@gmail.com`;
 }
