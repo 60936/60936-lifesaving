@@ -83,6 +83,23 @@ function displayAnswer(elementId) {
 
      .(References from SLSS manual)`);
  
+    } else if (elementId === 'fractures') {
+     alert(`fractures
+     -broken or cracked bone:
+     -CAUSE by direct blow or indirect force like twisting;
+     -closed fractures present no visible wounds;
+     -open or compound fracture where skin is broken;
+     -SYMPTOMS limited limb movement, very painful, swelling, deformity, bleeding and bruising;
+       TREATMENT: 
+        -handle GENTLY, provide assurance;
+        -remain at original position, move when necessary;
+        -cover wound with clean dressing, 
+        -support upper limbs with sling;
+        -pad between lower limbs strap together;
+        -treat casualty for shock, arrange for evacuation.
+
+     .(References from SLSS manual)`);
+ 
 } else if (elementId === 'spinal injury') {
      alert(`Impact of hitting bottom of a pool can literally destroy the spinal cord
      Highly skilled lifesaver will treat any unconscious person as a possible spinal injury;
