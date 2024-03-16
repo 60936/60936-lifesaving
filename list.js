@@ -14,8 +14,8 @@ function displayAnswer(elementId) {
  else if (elementId === 'vision') {
     alert(`to be a leading lifesaving organisation in the world. (SLSS)`);
 }
-else if (elementId === 'contents') {
-    window.open(href="list/contents.html",'chat AI','resizable,height=300,width=500');
+else if (elementId === 'syllabus') {
+    window.open(href="list/slss-awards-syllabus-updated-as-at-14th-july-2017.pdf",'chat AI','resizable,height=300,width=500');
 }
 else if (elementId === 'disclaimer') {
     alert(`This content is created for trainee and trained lifesaver's references only.  Context of saving methodology is subject to relevant skills, experiences and expertise interpretation, content here are by no means comprehensive enough to be used alone. The proper way to be an effective lifesaver is to undertake a course of training provided by a licensed trainer and certified by a recognised lifesaving authority. (chatbot developer)`);
