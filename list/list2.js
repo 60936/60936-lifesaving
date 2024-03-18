@@ -1,22 +1,23 @@
-function displayAnswer() {
-    const userInput = document.getElementById("text_a").value;
-	const response = document.getElementById("userInput");
-    // Convert user input to lowercase for case-insensitive matching
-	const input = userInput.toLowerCase();
-	// Check if any keyword matches the user input
-for (const keyword in keywordResponses) {
-	if (input.includes(keyword)) {
-	response.textContent = keywordResponses[keyword];
-	return; 
-    //s2Hygiene.html*
-}else if(input.toLowerCase().indexOf("transmissable disease")>-1||input.toLowerCase().indexOf("what")>-1){response.innerHTML=`some transmissable diseases in the cause of lifesaving to be aware of are: 
+function displayAnswer(elementId) {
+//     const userInput = document.getElementById("text_a").value;
+// 	const response = document.getElementById("userInput");
+//     // Convert user input to lowercase for case-insensitive matching
+// 	const input = userInput.toLowerCase();
+// 	// Check if any keyword matches the user input
+// for (const keyword in keywordResponses) {
+// 	if (input.includes(keyword)) {
+// 	response.textContent = keywordResponses[keyword];
+// 	return; 
+//     //s2Hygiene.html*
+// }else if(input.toLowerCase().indexOf("transmissable disease")>-1||input.toLowerCase().indexOf("what")>-1){response.innerHTML=
+if (elementId === 'transmissable disease') {
+alert(`some transmissable diseases in the cause of lifesaving to be aware of are: 
 []colds, []influenza, []measles and mumps, 
 []glandular fever, []Hepatitis A or B, 
 []AIDS, []SARS, []Herpes, 
 []Tuberculosis, []some forms of meningitis, 
 []some skin infections.
-.(References from SLSS manual)`;
-return;
+.(References from SLSS manual)`);
         
     
         
@@ -55,4 +56,4 @@ return;
     .(References from SLSS manual)`);
 
 }
-}};
+};
