@@ -82,6 +82,21 @@ function displayAnswer(elementId) {
         -move casualty unnecessarily.
 
      .(References from SLSS manual)`);
+
+    } else if (elementId === 'cramps') {
+        alert(`muscle contraction
+        -cold water swim;
+        -close to exhaustion;
+        -severe loss of salt;
+        -casualty float on back/scull signal for help;
+        -stretch and massage the muscles;
+        -thigh > straighten and raise the leg;
+        -toes > stretch toes towards the knee;
+        -abdominal muscles > arch back slightly;
+        - gently rub to relax the muscles, reassure casualty.
+
+        .(References from SLSS manual)`);        
+    
  
     } else if (elementId === 'fractures') {
      alert(`fractures
@@ -99,6 +114,12 @@ function displayAnswer(elementId) {
         -treat casualty for shock, arrange for evacuation.
 
      .(References from SLSS manual)`);
+
+} else if (elementId === 'dislocation') {
+    alert(`do not apply ice directly to the skin;
+    -do not relocate the limb;
+    -immobilise, apply ice and seek medical assistance;
+    .(References from SLSS manual)`);        
  
 } else if (elementId === 'spinal injury') {
      alert(`Impact of hitting bottom of a pool can literally destroy the spinal cord
