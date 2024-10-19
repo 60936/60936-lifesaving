@@ -204,6 +204,12 @@ function displayAnswer(elementId) {
 
 } else if (elementId === 'assisted lift-3 man') {
     alert(`<b>perform by 3</b> people;  lifesave control and organise the lift;  casualty face bank;  rescuer to bystander:"hold both casualty's hands", lifesaver get out the water;  lifesaver to bystander:"hold one hand"  rescuer hold other hand turn casualty face the water, back against bank;  both lift casualty and sit at edge;  ask 2nd bystander to carry casualty's legs  coordinate the lift and lower in a safe place.  <b>for 3 man lift,</b> both lifter slide elbow under casualty's each armpit, grasp the wrist;  free hand clasp wrist holding arm or balance support standing up`);
+
+} else if (elementId === 'tube rescue unconscious') {
+    window.open(href="https://youtu.be/gU_n4xYFKlM?si=SEjbdWq8PWcu572_",'chat AI','resizable,height=300,width=500');
+
+
+
 //s3Rescue.html***
 //s4Resuscitation.html*
 
