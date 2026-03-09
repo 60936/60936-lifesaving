@@ -15,7 +15,19 @@ function displayAnswer(elementId) {
     alert(`to be a leading lifesaving organisation in the world. (SLSS)`);
 }
 else if (elementId === 'syllabus') {
-    window.open(href="list/slss-awards-syllabus-updated-as-at-14th-july-2017.pdf",'chat AI','resizable,height=300,width=500');
+    window.open(href="list/SLSS-Awards-Syllabus-Updated-as-at-10th-Oct-2025.pdf",'chat AI','resizable,height=300,width=500');
+}
+else if (elementId === 'bm5') {
+    window.open(href="list/bm5.pdf",'chat AI','resizable,height=300,width=500');
+}
+else if (elementId === 'bm6') {
+    window.open(href="list/bm6.pdf",'chat AI','resizable,height=300,width=500');
+}
+else if (elementId === 'bm7') {
+    window.open(href="list/bm7.pdf",'chat AI','resizable,height=300,width=500');
+}
+else if (elementId === '2-man CPR') {
+    window.open(href="list/2-man CPR notes.pdf",'chat AI','resizable,height=300,width=500');
 }
 else if (elementId === 'disclaimer') {
     alert(`This content is created for trainee and trained lifesaver's references only.  Context of saving methodology is subject to relevant skills, experiences and expertise interpretation, content here are by no means comprehensive enough to be used alone. The proper way to be an effective lifesaver is to undertake a course of training provided by a licensed trainer and certified by a recognised lifesaving authority. (chatbot developer)`);
